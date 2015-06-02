@@ -1,4 +1,4 @@
-# Smartstack Base Image
+# Smartstack Base Docker Image
 
 ## Using this image
 
@@ -39,3 +39,12 @@ To enable Nerve, the running script of the final image needs to create a configu
 ```
 
 Both Synapse and Nerve need access to Zookeeper, which must be passed to the container via the ZK_HOSTS environment variable.
+
+## About Smartstack
+
+[Smartstack](http://nerds.airbnb.com/smartstack-service-discovery-cloud/) is an open-source service discovery framework developed by Airbnb.
+
+For more details, see:
+
+* https://github.com/airbnb/nerve
+* https://github.com/airbnb/synapse
