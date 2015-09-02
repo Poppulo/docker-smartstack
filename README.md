@@ -20,11 +20,11 @@ Operating System: Ubuntu 14.04 (Docker Image ubuntu:14.04)
 
 Installed components:
 
-* HA Proxy (enabled)
-* Synapse
-* Nerve
+* HA Proxy
+* Synapse (0.12.1)
+* Nerve (0.6.0)
 
-## How to use smartstack
+## How to use
 
 To enable Synapse, the running script of the final image needs to create a configuration file under /etc/synapse.conf.json and start it with the command:
 
@@ -46,5 +46,5 @@ Both Synapse and Nerve need access to Zookeeper, which must be passed to the con
 
 For more details, see:
 
-* https://github.com/airbnb/nerve
-* https://github.com/airbnb/synapse
+* [Nerve](https://github.com/airbnb/nerve)
+* [Synapse](https://github.com/airbnb/synapse)
